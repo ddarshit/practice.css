@@ -1,0 +1,32 @@
+.conteiner {
+    width: 1300px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+    transition: background 2s;
+}
+h1:hover {
+    color: rgba( 210, 105, 30, 0.378);
+    background-color:rgba(128, 255, 0, 0.634);
+}
+
+section {
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+.me {
+    margin-bottom: 40px;
+    
+}
+
+
+h3 {
+    text-transform: uppercase; 
+}
