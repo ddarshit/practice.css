@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner-1 {
+    background-color: rgb(227, 13, 48);
+    text-transform: capitalize;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 1100px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: skyblue;
+    width: 1000px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+footer {
+    background-color: rgb(74, 195, 238);
+    width: 1000px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.conteiner-2 {
+    background-color: rgb(245, 68, 98);
+    text-align: center;
+    width: 1000px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.row-1 {
+    padding: 20px;
+}
+
+img{
+    padding: 30px;
+}
