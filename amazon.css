@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color:rgb(0, 0, 0);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3px 3px;
+
+
+}
+.containers{
+    background-color: antiquewhite;
+    margin: 0 auto; 
+    
+}
+
+.conteiner-1,
+.conteiner-2,
+.conteiner-3,
+.conteiner-4 {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 400px;
+    margin: 20px 20px;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 14px;
+    display: inline-block;
+}
+.a{
+display: inline-block;
+
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8,
+.img9,
+.img10,
+.img11,
+.img12,
+.img13 {
+    display: inline-block;
+    padding: 10px;
+}
+.i  {
+    color: white;
+    
+
+}
+input[type=search] {
+    
+     padding: 10px;
+}
+button[type=submit] {
+    font-size: 25px;
+
+}
+
+.offer1 {
+    text-align: center;
+    padding: 60px;
+}
+
+.offer3 {
+    text-align: center;
+    padding: 40px;
+}
+
+.offer2 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.offer4 {
+    text-align: center;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
