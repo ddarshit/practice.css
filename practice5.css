@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgb(243, 66, 96);
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+
+.conteiner{
+    width: 1200px;
+    margin: 20px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding:5px;
+    background: #262626;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a{
+    margin: 0 30px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+a:hover{
+    background: purple;
+}
+
+i{
+    color: white;
+    margin: 0 30px;
+    
+}
