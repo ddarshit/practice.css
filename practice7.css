@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: rgb(89, 246, 21);
+    display: grid;
+    width:1200px;
+    height: 300PX;
+    border: 1px solid black;
+    row-gap: 1px;
+    column-gap: 1px;
+    grid-template-rows:repeat(3, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.row {
+    background-color: rgb(243, 242, 241);
+}
+
+.a{
+    background-color: orange;
+}
+
+.b{
+    background-color: blue;
+}
+
+.c{
+    background-color: lightgreen;
+}
+
+.d{
+    background-color: peru;
+}
