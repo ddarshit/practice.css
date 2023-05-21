@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sidebar {
+  position: absolute;
+  width: 60px;
+  height: 100vh;
+  background-color: #3e3737;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.sidebar:hover {
+  width: 300px;
+}
+.sidebar ul {
+  position: relative;
+  height: 100vh;
+}
+.sidebar ul li {
+  list-style: none;
+}
+.sidebar ul li :hover {
+  background-color: rgb(181, 109, 14);
+}
+.sidebar ul li a {
+    position: relative;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+}
+.sidebar ul li a .icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    height: 60px;
+    font-size: 1.5em;
+    color: #dfc9c9 ;
+}
+.sidebar ul li a .text {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #dfc9c9 ;
+}
+.sidebar ul li.logo {
+    margin-bottom: 50px;
+}
+.sidebar ul li.logo :hover {
+    background: #3e3737;
+}
+.sidebar ul li.logo.icon {
+    font-size: 2em;
+}
+.sidebar ul li.logo.text {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.bottom{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+.box {
+  margin: 0 auto;
+  width: 1200px;
+  height: 250px;
+  display: grid;
+  gap: 10px;
+}
+.a {
+  grid-row-start: 1;
+  grid-row-end: 4;
+
+}
+
+.b {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.f {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
